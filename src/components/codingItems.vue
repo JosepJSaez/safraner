@@ -20,12 +20,17 @@ export default {
             type: Number, 
             required: false,
             validator: val => 0 && val < subtitles.length
+        },
+        image: {
+            type: String, 
+            required: false
         }
+
     },
     data() {
         return{
-            subtitulosDatos : definedSubtitles[this.subtitles]
-
+            subtitulosDatos : definedSubtitles[this.subtitles],
+            imageName: `${this.image}`
         }
     },
     computed : {},
@@ -34,12 +39,12 @@ export default {
 </script>
 
 <template>
-    <div class="card">       
-    <img src="../assets/cat.jpg" alt="gatard">  
-        <div class="content">            
+    <div class="card overflow-hidden">       
+    <img :src="imageName" alt="gatard">  
+        <div class="content ">            
             <h1> {{ titul }}</h1>
             <h2>{{ subtitulosDatos }}</h2>
-            <slot></slot>
+            <slot ></slot>
         </div>  
     </div>
 </template>
