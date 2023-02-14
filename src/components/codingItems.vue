@@ -1,10 +1,11 @@
 <script>
 
-const definedSubtitles = ["Trucos de maquetación web",
-"PHP & Laravel, para el backend",
-"JavaScript, el mejor lenguaje",
-"Vue.JS, el framework comunitario",
-"SQL para atacar a las bases de datos"
+const definedSubtitles = ["Los cimientos de una web",
+"PHP & Laravel, elegancia en el backend",
+"JavaScript? Lo mejor!",
+"Vue.js, el framework progresivo",
+"SQL y las bases de datos",
+"Adaptabilidad del contenido"
 ]
 
 export default {
@@ -39,12 +40,12 @@ export default {
 </script>
 
 <template>
-    <div class="card overflow-hidden">       
+    <div class="card overflow-hidden rounded-lg">       
     <img :src="imageName" alt="gatard">  
         <div class="content ">            
             <h1> {{ titul }}</h1>
             <h2>{{ subtitulosDatos }}</h2>
-            <slot ></slot>
+            <p><slot></slot></p>
         </div>  
     </div>
 </template>
@@ -59,29 +60,20 @@ export default {
     margin: 10px;
     max-height: 600px;
     max-width: 350px;
-    border: 1px solid black;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgba(68, 0, 235, 0.3), rgba(128, 0, 128, 0.3));
     box-shadow: 4px 4px 10px #aaa;
-    
 }
-
 .card img {    
-    
+border: 2px solid black;
 width: 100%;
 height: 250px;
 box-shadow: 6px 6px 10px rgb(46, 164, 131);
 }
-
-p{
-    color: beige;
-    display: flex;
-}
-
 .content {
-   
     padding: 20px;
-    border-radius: 10px;     
+    border-radius: 10px;
 }
-
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -94,7 +86,6 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 1.5rem;
     color: rgb(144, 135, 209);
 }
 
