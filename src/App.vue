@@ -55,7 +55,7 @@ export default {
     <h1>capçalera</h1>
   </header>
   
-  <section class="w-full min-h-auto bg-orange-500 px-64 py-32 flex flex-col">
+  <section class="w-4/5 min-h-auto bg-orange-500 py-32 flex flex-col mx-auto">
 
       <div class="w-full bg-red-500 ">
       <h3> futer</h3>
