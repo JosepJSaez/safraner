@@ -1,12 +1,57 @@
+
 <script>
+    export default {
+        name: "Home",
+    };
 </script>
 
 <template>
-
-<h1>bon dia</h1>
-
+      <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div>
+    <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 "> 
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div> <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div>
+    <div class="w-full bg-red-500 w-full">
+      <h3> futer</h3>
+    </div>
+    <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div>
+    <div class="w-full bg-red-500 ">
+      <h3> futer</h3>
+    </div>
+    <div class="w-full bg-red-500 ">
+      <h3> kliiiter</h3>
+    </div>
 </template>
-
-<style>
-
-</style>
