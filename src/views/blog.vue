@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div id="contenedorItemsProgramacion" class="flex flex-wrap" >
+    <div id="contenedorItemsProgramacion" class="flex flex-wrap place-content-center" >
         <CardItem image="images/htmlcss.jpg" titul="HTML5+CSS3" :subtitles="0"></CardItem>
         <CardItem image="images/php.jpg" titul="PHP" :subtitles="1"/>
         <CardItem image="images/javascript.jpg" titul="JavaScript" :subtitles="2" />
