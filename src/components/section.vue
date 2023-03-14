@@ -9,7 +9,7 @@ export default {
 
 <template>
 
-    <section class="w-4/5 min-h-auto bg-orange-500 py-32 flex flex-col mx-auto">    
+    <section class="w-4/5 min-h-auto relative  bg-orange-500  pt-32 pb-16  md:py-24 flex flex-col mx-auto">    
         <router-view/>     
     </section>
 

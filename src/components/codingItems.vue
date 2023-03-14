@@ -58,7 +58,7 @@ export default {
 }
 .card {   
     margin: 10px;
-    max-height: 600px;
+    max-height: 450px;
     max-width: 350px;
     border: 2px solid black;
     background: linear-gradient(to right, rgba(68, 0, 235, 0.3), rgba(128, 0, 128, 0.3));
@@ -67,7 +67,7 @@ export default {
 .card img {    
 border: 2px solid black;
 width: 100%;
-height: 250px;
+height: 200px;
 box-shadow: 6px 6px 10px rgb(46, 164, 131);
 }
 .content {

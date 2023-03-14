@@ -10,7 +10,7 @@ export default {
 
 <template>
 
-    <footer class="w-full bg-cyan-500 min-h-auto p-14">
+    <footer class="w-full bg-cyan-500 min-h-auto p-8">
     
         <div class="w-full min-h-auto bg-orange-500 flex flex-row  justify-around items-center mb-6">
             <a>HACHEREF</a>
